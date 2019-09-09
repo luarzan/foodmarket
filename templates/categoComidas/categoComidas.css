@@ -151,6 +151,24 @@ position: relative;
     }
 }
 
+@media (min-width: 320px) and (min-device-height: 400px){
+   .categories__food--wrapper{
+       grid-row-gap: 1rem;
+   }
+       .categories__food-item{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+@media (min-width: 320px) and (min-device-height: 420px){
+   .categories__food--wrapper{
+       grid-row-gap: 1rem;
+   }
+       .categories__food-item{
+        width: 4rem;
+        height: 4rem;
+    }
+}
 @media (min-width: 320px) and (min-device-height: 430px){
    .categories__food--wrapper{
        grid-row-gap: 1rem;
