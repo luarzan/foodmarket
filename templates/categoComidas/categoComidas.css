@@ -21,23 +21,43 @@ html{
 
 body{
 font-family: 'Montserrat',sans-serif;
-height: 100vh; 
-}
-
-.categories{
-height: (100vh - 6rem);
-top: 0;
-left: 0;
-bottom: 0;
-right: 0; 
+height: 100vh;
 position: relative;
 }
 
+.categories{
+    white-space: nowrap;
+    position: absolute;
+    top: 8rem;
+    overflow: scroll;
+    width: 100vw;
+}
+.navigation{
+    background-color:#EFB03D;
+    height: 6rem;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    box-shadow: 0 -5px 15px rgba(0,0,0,1); 
 
+}
+.categories__food--grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 5rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+.categories__food--wrapper-page1{
+    display: inline-block;
+    width: 100%;
+}
+.categories__food--wrapper-page2{
+    display: inline-block;
+    width: 100%;
+}
 @media (min-width: 320px){
-    .categories{
-        padding-top: 2rem; 
-    }
     .left__arrow-wrapper{
         display: inline-block;
         position:absolute;
@@ -53,8 +73,9 @@ position: relative;
         height: 6rem;
         width: 100vw;
         position: fixed;
-        top: calc(100vh - 6rem);
-        box-shadow: 0 -1px 15px rgba(0,0,0,.2); 
+        bottom: 0;
+        z-index: 999;
+        box-shadow: 0 -5px 15px rgba(0,0,0,.2); 
     }
     .navigation-selector{
         position: absolute;
@@ -107,23 +128,32 @@ position: relative;
         height: 2.2rem;
     }
     .categories__title-wrapper{
-        text-align: center;
+        background-color: white;
         margin:0rem auto 2rem auto;
+        padding-top: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 999;
     }
     .categories__title{
         font-weight: 500;
         font-size: 1.5rem;
+        text-align: center;
     }
     .categories__title span{
         font-weight: 800;
         font-size: 2.5rem;
+        text-align: center;
     }
     .categories__food--wrapper{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(4,1fr);
-        grid-row-gap: 1.5rem;
-        padding: 0rem 2rem 2rem 2rem;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-row-gap: 1rem;
+        grid-column-gap: 1rem;
+        padding: 2rem 2rem 2rem 2rem;
+        height: 100%;
+        overflow-x: scroll;
     }
     .categories__food--item-wrapper{
         justify-self: center;

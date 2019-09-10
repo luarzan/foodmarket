@@ -4,141 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#EFB03D">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
     <title>Categorias Comida</title>
     <link rel="stylesheet" href="categoComidas.css">
-
 </head>
 <body>
         <nav class="navigation">
-            <div class="navigation-selector">
-            </div>
-                <ul class="navigation__list">
-                    <li class="navigation__item navigation__item-gear">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cog" class="svg-inline--fa fa-cog fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path class="navigation__item--img-gear" d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"></path></svg>
-                    </li>
-                    <li class="navigation__item navigation__item-calendar">
-                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="navigation__item--img-calendar" d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"></path></svg>
-                    </li>
-                    <li class="navigation__item navigation__item-logo">
-                            <svg class="navigation__item--img-logo" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="666.000000pt" height="340.000000pt" viewBox="0 0 666.000000 340.000000"
-                            preserveAspectRatio="xMidYMid meet">
-                           <g transform="translate(0.000000,340.000000) scale(0.100000,-0.100000)"
-                           fill="#fff" stroke="none">
-                           <path d="M832 3378 c-7 -7 -12 -20 -12 -29 0 -9 72 -238 160 -509 88 -271 160
-                           -498 160 -505 0 -13 -86 -52 -94 -44 -2 2 -85 211 -184 464 -99 253 -188 479
-                           -197 503 -11 28 -25 44 -40 48 -31 8 -65 -12 -65 -37 0 -11 75 -250 166 -531
-                           184 -566 176 -521 94 -548 -22 -7 -43 -11 -46 -8 -2 3 -95 237 -206 519 -110
-                           283 -209 523 -219 534 -25 26 -73 11 -77 -25 -2 -19 215 -708 338 -1073 9 -27
-                           7 -29 -37 -48 -25 -11 -49 -16 -53 -12 -3 4 -98 242 -209 528 -112 286 -211
-                           529 -222 540 -15 15 -24 17 -46 9 -17 -6 -29 -18 -31 -32 -3 -21 334 -1074
-                           364 -1137 23 -50 75 -106 110 -121 19 -8 66 -14 107 -14 133 0 223 -44 268
-                           -132 11 -21 38 -91 61 -156 234 -672 779 -1187 1494 -1411 347 -109 643 -147
-                           1077 -138 219 4 287 9 412 31 548 93 959 300 1326 666 233 232 393 463 587
-                           845 46 92 64 110 264 269 330 263 474 429 527 613 137 465 -28 854 -384 905
-                           -292 41 -617 -204 -733 -554 -63 -190 -66 -308 -12 -539 60 -257 72 -325 77
-                           -444 5 -119 5 -121 -29 -210 -275 -708 -974 -1193 -1883 -1306 -129 -16 -481
-                           -16 -610 0 -438 54 -815 199 -1130 433 -316 235 -550 545 -701 933 -79 205
-                           -72 305 32 413 59 61 94 136 94 200 0 25 -67 210 -206 567 -114 292 -212 536
-                           -217 543 -12 15 -59 16 -75 0z"/>
-                           <path d="M2503 3346 c-155 -50 -241 -173 -231 -330 6 -90 39 -157 108 -219 67
-                           -61 129 -81 229 -75 122 7 216 69 268 176 37 76 39 191 5 268 -28 62 -102 136
-                           -162 163 -61 27 -163 35 -217 17z"/>
-                           <path d="M3983 3343 c-103 -35 -187 -119 -213 -213 -15 -54 -12 -151 7 -206
-                           23 -67 120 -164 187 -187 139 -47 296 2 376 118 90 130 70 308 -46 415 -86 79
-                           -207 108 -311 73z"/>
-                           </g>
-                           </svg>
-                        
-                            <!-- <img class="navigation__item--img-logo" src="../../assets/logoAssets/logo.png" alt="main-menu"> -->
-                    </li>
-                    <li class="navigation__item navigation__item-heart">
-                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path class="navigation__item--img-heart" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
-                    </li>
-                    <li class="navigation__item navigation__item-profile">
-                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="user" class="svg-inline--fa fa-user fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="navigation__item--img-profile" d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
-                    </li>
-                </ul>
-        </nav>    
-    <div class="categories">
-        <div class="left__arrow-wrapper">
-                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="left-arrow" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg>
-        </div>
+                <div class="navigation-selector">
+                </div>
+                    <ul class="navigation__list">
+                        <li class="navigation__item navigation__item-gear">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cog" class="svg-inline--fa fa-cog fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path class="navigation__item--img-gear" d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"></path></svg>
+                        </li>
+                        <li class="navigation__item navigation__item-calendar">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="navigation__item--img-calendar" d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"></path></svg>
+                        </li>
+                        <li class="navigation__item navigation__item-logo">
+                                <svg class="navigation__item--img-logo" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                width="666.000000pt" height="340.000000pt" viewBox="0 0 666.000000 340.000000"
+                                preserveAspectRatio="xMidYMid meet">
+                               <g transform="translate(0.000000,340.000000) scale(0.100000,-0.100000)"
+                               fill="#fff" stroke="none">
+                               <path d="M832 3378 c-7 -7 -12 -20 -12 -29 0 -9 72 -238 160 -509 88 -271 160
+                               -498 160 -505 0 -13 -86 -52 -94 -44 -2 2 -85 211 -184 464 -99 253 -188 479
+                               -197 503 -11 28 -25 44 -40 48 -31 8 -65 -12 -65 -37 0 -11 75 -250 166 -531
+                               184 -566 176 -521 94 -548 -22 -7 -43 -11 -46 -8 -2 3 -95 237 -206 519 -110
+                               283 -209 523 -219 534 -25 26 -73 11 -77 -25 -2 -19 215 -708 338 -1073 9 -27
+                               7 -29 -37 -48 -25 -11 -49 -16 -53 -12 -3 4 -98 242 -209 528 -112 286 -211
+                               529 -222 540 -15 15 -24 17 -46 9 -17 -6 -29 -18 -31 -32 -3 -21 334 -1074
+                               364 -1137 23 -50 75 -106 110 -121 19 -8 66 -14 107 -14 133 0 223 -44 268
+                               -132 11 -21 38 -91 61 -156 234 -672 779 -1187 1494 -1411 347 -109 643 -147
+                               1077 -138 219 4 287 9 412 31 548 93 959 300 1326 666 233 232 393 463 587
+                               845 46 92 64 110 264 269 330 263 474 429 527 613 137 465 -28 854 -384 905
+                               -292 41 -617 -204 -733 -554 -63 -190 -66 -308 -12 -539 60 -257 72 -325 77
+                               -444 5 -119 5 -121 -29 -210 -275 -708 -974 -1193 -1883 -1306 -129 -16 -481
+                               -16 -610 0 -438 54 -815 199 -1130 433 -316 235 -550 545 -701 933 -79 205
+                               -72 305 32 413 59 61 94 136 94 200 0 25 -67 210 -206 567 -114 292 -212 536
+                               -217 543 -12 15 -59 16 -75 0z"/>
+                               <path d="M2503 3346 c-155 -50 -241 -173 -231 -330 6 -90 39 -157 108 -219 67
+                               -61 129 -81 229 -75 122 7 216 69 268 176 37 76 39 191 5 268 -28 62 -102 136
+                               -162 163 -61 27 -163 35 -217 17z"/>
+                               <path d="M3983 3343 c-103 -35 -187 -119 -213 -213 -15 -54 -12 -151 7 -206
+                               23 -67 120 -164 187 -187 139 -47 296 2 376 118 90 130 70 308 -46 415 -86 79
+                               -207 108 -311 73z"/>
+                               </g>
+                               </svg>
+                            
+                                <!-- <img class="navigation__item--img-logo" src="../../assets/logoAssets/logo.png" alt="main-menu"> -->
+                        </li>
+                        <li class="navigation__item navigation__item-heart">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path class="navigation__item--img-heart" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path></svg>
+                        </li>
+                        <li class="navigation__item navigation__item-profile">
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="user" class="svg-inline--fa fa-user fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="navigation__item--img-profile" d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+                        </li>
+                    </ul>
+            </nav> 
+
     <div class="categories__title-wrapper">
-        <h2 class="categories__title">Descubre por <br><span>categoría</span></h2>
-    </div>
-    <div class="categories__food--wrapper">
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-japonesa">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/japonesa.svg" alt="japonesa">
+            <div class="left__arrow-wrapper">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="left-arrow" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg>
             </div>
-            <p class="categories__food-description">Japonesa</p>
+            <h2 class="categories__title">Descubre por <br><span>categoría</span></h2>
+    </div> 
+
+    <div class="categories">
+    <div class="categories__food--wrapper-page1">
+        <div class="categories__food--grid">
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-japonesa">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/japonesa.svg" alt="japonesa">
+                </div>
+                <p class="categories__food-description">Japonesa</p>
+            </div>
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/donut.svg" alt="postres">
+                </div>
+                <p class="categories__food-description">Postres</p>
+            </div>
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-pizza">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/pizza.svg" alt="pizza">
+                </div>
+                <p class="categories__food-description">Pizzas</p>
+            </div>
+             <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-carnes">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/italiana.svg" alt="italiana">
+                </div>
+                <p class="categories__food-description">Italiana</p>
+            </div>
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-china">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/comidaRapida.svg" alt="comida-rapida">
+                </div>
+                <p class="categories__food-description">Fast-food</p>
+            </div>
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-hamburguesa">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/carnes.svg" alt="carne">
+                </div>
+                <p class="categories__food-description">Carne</p>
+            </div>
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-saludable">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/china.svg" alt="china">
+                </div>
+                <p class="categories__food-description">China</p>
+            </div>
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-mariscos">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/hamburguesa.svg" alt="hamburguesa">
+                </div>
+                <p class="categories__food-description">Burgers</p>
+            </div>
+            <div class="categories__food--item-wrapper">
+                <div class="categories__food-item categories__food-item-mexicana">
+                    <img class="categories__food-item--img" src="../../assets/foodAssets/saludable.svg" alt="saludable">
+                </div>
+                <p class="categories__food-description">Sano</p>
+            </div>
         </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/donut.svg" alt="postres">
-            </div>
-            <p class="categories__food-description">Postres</p>
         </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-pizza">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/pizza.svg" alt="pizza">
-            </div>
-            <p class="categories__food-description">Pizzas</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-carnes">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/italiana.svg" alt="italiana">
-            </div>
-            <p class="categories__food-description">Italiana</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-china">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/comidaRapida.svg" alt="comida-rapida">
-            </div>
-            <p class="categories__food-description">Fast-food</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-hamburguesa">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/carnes.svg" alt="carne">
-            </div>
-            <p class="categories__food-description">Carne</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-saludable">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/china.svg" alt="china">
-            </div>
-            <p class="categories__food-description">China</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-mariscos">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/hamburguesa.svg" alt="hamburguesa">
-            </div>
-            <p class="categories__food-description">Burgers</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-mexicana">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/saludable.svg" alt="saludable">
-            </div>
-            <p class="categories__food-description">Sano</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-itaiana">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/mariscos.svg" alt="mariscos">
-            </div>
-            <p class="categories__food-description">Mariscos</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-rapida">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/taco.svg" alt="taco">
-            </div>
-            <p class="categories__food-description">Tacos</p>
-        </div>
-        <div class="categories__food--item-wrapper">
-            <div class="categories__food-item categories__food-item-panaderia">
-                <img class="categories__food-item--img" src="../../assets/foodAssets/pan.svg" alt="pan">
-            </div>
-            <p class="categories__food-description">Pan</p>
+        <div class="categories__food--wrapper-page2">
+                <div class="categories__food--grid">
+
+                    <div class="categories__food--item-wrapper">
+                        <div class="categories__food-item categories__food-item-itaiana">
+                            <img class="categories__food-item--img" src="../../assets/foodAssets/mariscos.svg" alt="mariscos">
+                        </div>
+                        <p class="categories__food-description">Mariscos</p>
+                    </div>
+                    <div class="categories__food--item-wrapper">
+                        <div class="categories__food-item categories__food-item-rapida">
+                            <img class="categories__food-item--img" src="../../assets/foodAssets/taco.svg" alt="taco">
+                        </div>
+                        <p class="categories__food-description">Tacos</p>
+                    </div>
+                    <div class="categories__food--item-wrapper">
+                        <div class="categories__food-item categories__food-item-panaderia">
+                            <img class="categories__food-item--img" src="../../assets/foodAssets/pan.svg" alt="pan">
+                        </div>
+                        <p class="categories__food-description">Pan</p>
+                    </div>
+                </div>
         </div>
     </div>
     </div>
