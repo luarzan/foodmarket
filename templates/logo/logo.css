@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url('../../fonts/Montserrat/Montserrat-Regular.ttf'),
+        url('../../fonts/Montserrat/Montserrat-Light.ttf'),
+        url('../../fonts/Montserrat/Montserrat-Bold.ttf'),
+        url('../../fonts/Montserrat/Montserrat-Medium.ttf'),
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat',sans-serif;
+    height: 100vh;
+    /* background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(254,182,24,1) 50%, rgba(0,190,76,1) 100%); */
+    background-color: #FEB618;
+    /* background-color: #00BE4C ; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    max-height: 100vh;
+    /* width: 95vw; */
+    max-width: 100vw;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.container__title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container__logo {
+    padding: 1rem 7rem;
+    width: 50%;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+.pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+}
