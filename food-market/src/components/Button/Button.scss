@@ -1,0 +1,33 @@
+@import '../../assets/Styles/colors.scss';
+@import '../../assets/Styles/measures.scss';
+
+.foodmkt-btn{
+    cursor: pointer;
+    border-radius: $border-radius-inputs;
+    border: none;
+    text-align: center;
+    padding:$padding-btn;
+    color: $main-black;
+    font-size: $font-size-bottom;
+    font-family: 'Montserrat-medium',sans-serif;
+    svg{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .facebook{
+        
+    }
+    &.main{
+        background-color: $main-orange;
+        color:$white;
+    }
+    &.bottom-btn{
+        position: absolute;
+        bottom:50px;
+    }
+    &.simple{
+        background-color: transparent;
+        color: white;
+    }
+}
+

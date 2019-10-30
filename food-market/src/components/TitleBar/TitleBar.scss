@@ -1,0 +1,19 @@
+@import '../../assets/Styles/measures.scss';
+.TitleBar{
+height: $title-bar-height;
+max-width: 100%;
+    svg{
+        width: 15rem;
+        height: 15rem;
+    }
+    .title{
+        font-size: 6rem;
+        font-family:'Quicksand-medium',sans-serif;
+        color: white;
+    }
+    .subTitle{
+        font-size: 4rem;
+        font-family:'Pacifico-medium',sans-serif;
+        color: white;
+    }
+}

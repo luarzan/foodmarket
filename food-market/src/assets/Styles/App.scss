@@ -1,0 +1,48 @@
+@import './measures.scss';
+@import './colors.scss';
+
+html{
+    font-size: $root-font-size;
+    font-family: 'Montserrat-medium',sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    font-family: 'Montserrat-medium',sans-serif;
+   
+}
+
+.white-back-figure{
+    background-color: $white;
+    border-radius: $border-radius-background $border-radius-background 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.full-width{
+    width: $full-width;
+}
+.half-width{
+    width:calc(#{$full-width} / 2);
+}
+
+.inputs{
+    border-radius: $border-radius-inputs;
+    background-color: $light-grey;
+    border: none;
+    padding: $padding-btn;
+    font-family:'Montserrat-light',sans-serif;
+    font-size: 1.5rem;
+    box-shadow: $box-shadow;
+    margin-bottom: $margin-bottom;
+}
+.inputs::placeholder{
+    font-family: 'Montserrat-light',sans-serif;
+    color: $grey;
+}
+
+
