@@ -1,10 +1,20 @@
 //font
 $root-font-size:62.5%;
-//logo-header-size{
-    // $logo-header-size:;
+
+//icons size
+$icon-size:2.8rem;
+$icon-size-logo:4.5rem;
 
 //title-bar-height
-$title-bar-height:150px;
+$title-bar-height:10rem;
+
+//bottom bar height
+$bottom-bar-height:8rem;
+
+//recipe cards
+$recipe-card-width:20rem;
+$recipe-card-height:33rem;
+
 //width
 $full-width:100%;
 
@@ -16,6 +26,7 @@ $padding-container:2.5rem;
 $margin-top:2rem;
 //Btn
 $margin-bottom:2rem;
+$element-space:10px;
 $font-size-bottom:1.8rem;
 
 //Border-radius
@@ -26,3 +37,4 @@ $border-radius-inputs:10rem;
 //Box-shadow
 
 $box-shadow:0 2px 5px rgba(221, 221, 221, 0.8);
+$box-shadow-top:0 -2px 5px rgba(221, 221, 221, 0.8);

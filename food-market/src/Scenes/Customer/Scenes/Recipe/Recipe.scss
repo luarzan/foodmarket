@@ -1,0 +1,36 @@
+@import '../../../../assets/Styles/measures.scss';
+
+.Recipe{
+    position: relative;
+    padding: 0 $padding-container;
+    margin: $title-bar-height 0;
+
+    &-wrapper{
+        position: relative;
+        overflow-x:scroll;
+    }
+    &-cardsWrapper{
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: $recipe-card-width;
+        column-gap:$element-space*2;
+        margin-left: $element-space*10;
+    }
+    &-morePopular{
+       position: absolute;
+       transform: translate(-50%,-50%);
+       top: 50%;
+       margin-left:$element-space;
+    }
+
+    &-morePopular{
+        &-text{
+            font-size: 3rem;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+        }
+    }
+    &-timeOfTheDay{
+        margin-top: $element-space*3;
+    }
+}
