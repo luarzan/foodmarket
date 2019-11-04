@@ -13,11 +13,16 @@ const BottomBar = ()=>{
             <div className="BottomBar-item">
                 <UserIcon/>
             </div>
+            
             <div className="BottomBar-item">
-                <CategoriesIcon/>
+                <Link to={'/u/categories'}>
+                    <CategoriesIcon/>
+                </Link>
             </div>
             <div className="BottomBar-item-logo BottomBar-item">
-                <Logo/>
+                <Link to ={'/u/recipe'}>
+                    <Logo/>
+                </Link>
             </div>
             <div className="BottomBar-item">
                 <HeartIcon/>

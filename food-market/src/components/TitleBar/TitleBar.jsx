@@ -1,6 +1,6 @@
 import React from 'react';
 import './TitleBar.scss';
-import className from 'classnames';
+import {ReactComponent as ReturnBtn} from '../../assets/Images/icons/left-arrow.svg';
 
 const TitleBar = ({logTitle,subTitle,title})=>{
 
@@ -14,7 +14,8 @@ return(
         </div>  
         }
         {title &&
-            <div>
+            <div className="title-wrapper">
+                <ReturnBtn className="returnBtn"/>
                 <p className="title">{title}</p>
             </div> 
         }

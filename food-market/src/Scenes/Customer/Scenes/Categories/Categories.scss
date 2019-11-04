@@ -1,0 +1,14 @@
+@import '../../../../assets/Styles/measures.scss';
+@import '../../../../assets/Styles/colors.scss';
+
+.Categories{
+    position: relative;
+    padding: 0 $padding-container;
+    margin: $title-bar-height 0;
+    &-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-flow: row;
+        height: calc(100vh - (#{$title-bar-height} + #{$bottom-bar-height}));
+    }
+}

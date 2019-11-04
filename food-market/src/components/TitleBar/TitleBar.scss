@@ -27,9 +27,21 @@
         font-family:'Pacifico-medium',sans-serif;
         color: white;
     }
+    .title-wrapper{
+        position: relative;
+    }
     .title{
         font-size: 4rem;
         color: $main-black;
         line-height: 10rem;
-        font-family: 'Montserrat-semibold',san;
+        font-family: 'Montserrat-semibold',sans-serif;
+    }
+    .returnBtn{
+        cursor: pointer;
+        width: $icon-size;
+        height: $icon-size;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: $padding-container*1.5;
     }

@@ -1,0 +1,26 @@
+@import '../../../../../assets/Styles/measures.scss';
+@import '../../../../../assets/Styles/colors.scss';
+
+
+.CategoriesCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        &-img{
+            background:rgba(0,0,0,.1);
+            border-radius: 100px;
+            padding: $padding-container/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           & svg{
+                width: $icon-size*1.5;
+                height: $icon-size*1.5;
+            }
+        }
+        &-name{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+}
