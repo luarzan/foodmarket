@@ -1,42 +1,27 @@
 import React, { Component } from 'react';
-// import { withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
 import FacebookLogin from 'react-facebook-login';
 
 class BtnFacebookLogin extends Component {
-  state = {
-    isLoggedIn: false,
-    userID: '',
-    name: '',
-    email: '',
-    picture: ''
-  }
   
-  componentClicked = () => {
-    console.log( "Clicked!" )
-  }
-
-  responseFacebook = (response) => {
-    console.log(response);
-  }
-
   render() {
-    let fbContent;
-    if(this.state.isLoggedIn) {
-      fbContent = null;
-    } else {
-      fbContent = (<FacebookLogin
-        appId="551759372283447"
-        autoLoad={true}
-        fields="name,email,picture"
-        onClick={this.componentClicked}
-        callback={this.responseFacebook}
-        icon="fa-facebook"
-      /> );
+    const responseFacebook = (response) => {
+      // console.log(response);
+      if(response.accessToken) {
+        console.log(response.name, response.email, response.picture);
+        this.props.history.push('/u/recipe');
+      }
     }
+    
     return (
-      <div> {fbContent} </div>
+      <FacebookLogin
+        appId="551759372283447"
+        fields="name,email,picture"
+        callback={responseFacebook}
+        icon="fa-facebook"
+      />
     );
   }
 }
 
-export default BtnFacebookLogin;
+export default withRouter(BtnFacebookLogin);
