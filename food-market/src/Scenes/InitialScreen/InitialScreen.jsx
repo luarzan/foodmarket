@@ -3,6 +3,8 @@ import './InitialScreen.scss';
 import TitleBar from '../../components/TitleBar/TitleBar';
 import Button from '../../components/Button/Button';
 import {Link} from "react-router-dom";
+import BtnFacebookLogin from './BtnFacebookLogin';
+import BtnGoogleLogin from './BtnGoogleLogin';
 
 const InitialScreen = ()=>{
 const [toggleLogIn,setToggleLogIn] = useState('ingresa')
@@ -44,16 +46,18 @@ const changeToRegister = ()=>{
                 <input placeholder="Contraseña" className="inputs full-width" type="text"/>
             </div>
             <div className="white-back-figure">
-                <Button
+                {/* <Button
                 className="full-width"
                 whiteButton
                 facebook
-                >INGRESA CON FACEBOOK</Button>
-                <Button
+                >INGRESA CON FACEBOOK</Button> */}
+                {/* <Button
                 className="full-width"
                 whiteButton
                 google
-                >INGRESA CON GOOGLE</Button>
+                >INGRESA CON GOOGLE</Button> */}
+                <BtnFacebookLogin></BtnFacebookLogin>
+                <BtnGoogleLogin></BtnGoogleLogin>
                 <Link to={'/u/recipe'}>
                     <Button
                     className="full-width"
