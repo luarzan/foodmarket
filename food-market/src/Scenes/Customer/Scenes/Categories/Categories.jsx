@@ -15,8 +15,35 @@ import {ReactComponent as Pizza} from '../../../../assets/Images/icons/FoodIcons
 import {ReactComponent as Healthy} from '../../../../assets/Images/icons/FoodIcons/saludable.svg';
 import {ReactComponent as Bread} from '../../../../assets/Images/icons/FoodIcons/pan.svg';
 import CategoriesCards from './CategoriesCards/CategoriesCards';
+import SalmonImg from '../../../../assets/Images/salmon.jpg';
+import PancakeImg from '../../../../assets/Images/pancake.jpg';
+import HamburguerImg from '../../../../assets/Images/hamburguer.jpg';
+import PizzaImg from '../../../../assets/Images/pizza.jpg';
+import CategoriesRecipe from './CategoriesRecipe/CategoriesRecipe';
 
 const Categories = ()=>{
+    const recipeCards = [
+        {
+        image:SalmonImg,
+        name:'Salmón',
+        type:'Mariscos'
+        },
+        {
+        image:PancakeImg,
+        name:'Pancake',
+        type:'Panadería'
+        },
+        {
+        image:HamburguerImg,
+        name:'Hamburguer',
+        type:'Fast food'
+        },
+        {
+        image:PizzaImg,
+        name:'Pizza',
+        type:'Fast food'
+        }
+    ];
     const categories = [
         {   
             icon:<Meat/>,
@@ -84,6 +111,15 @@ const Categories = ()=>{
                     })
                 }
             </div>
+            {
+                recipeCards.map((card) =>{
+                    return(
+                        <CategoriesRecipe
+                            recipes = {card}
+                        />
+                    )
+                })
+            }
             <BottomBar/>
         </div>
     )

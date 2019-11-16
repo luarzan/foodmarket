@@ -48,7 +48,8 @@ const Recipe = ()=>{
                     recipeCards.map((card)=>{
                         return(
                             <RecipeCard
-                            cardType="recipeCard"
+                            cardType="RecipeCard"
+                            recipePopularCard
                             recipe={{image:card.image,name:card.name,type:card.type}}
                             />
                         )
@@ -61,8 +62,8 @@ const Recipe = ()=>{
                      timeOfTheDay.map((timeOfTheDay)=>{
                          return(
                              <RecipeCard
-                             cardType="timeOfTheDayCard"
-                             recipe={{}}
+                             cardType="TimeOfTheDayCard"
+                             timeOfTheDayCard
                              >{timeOfTheDay}</RecipeCard>
                          )
                      })

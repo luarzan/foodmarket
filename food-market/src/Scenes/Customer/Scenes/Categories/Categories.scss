@@ -9,6 +9,8 @@
         display: grid;
         grid-auto-columns: $categorie-card-width;
         grid-auto-flow: column;
+        overflow-x: scroll;
+        padding: $padding-container 0;
         // height: calc(100vh - (#{$title-bar-height} + #{$bottom-bar-height}));
     }
 }
