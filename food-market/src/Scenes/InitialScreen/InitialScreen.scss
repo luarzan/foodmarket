@@ -1,0 +1,32 @@
+@import '../../assets/Styles/colors.scss';
+@import '../../assets/Styles/measures.scss';
+
+.InitialScreen{
+    background-color:$main-black;
+    width: 100vw;
+    height: 100vh;
+    padding: $padding-container;
+    position: relative;
+    text-align: center;
+    &-log{
+        display: flex;
+        justify-content: space-around;
+        &-inputs-wrapper{
+            background-color: $white;
+            border-radius: $border-radius-boxes;
+            position: relative;
+            padding: $padding-container;
+            box-shadow: $box-shadow;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+        &-text{
+            font-size: 2.2rem;
+            font-family: 'Montserrat-medium',sans-serif;
+            
+        }
+}

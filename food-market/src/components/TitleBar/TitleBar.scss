@@ -1,0 +1,47 @@
+@import '../../assets/Styles/measures.scss';
+@import '../../assets/Styles/colors.scss';
+
+.TitleBar-log{
+    height: $title-bar-height;
+    max-width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+.TitleBar{
+    text-align: center;
+    background-color: $white;
+    height: $title-bar-height;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+    .mainTitle{
+        font-size: 4rem;
+        font-family:'Quicksand-medium',sans-serif;
+        color: white;
+    }
+    .subTitle{
+        font-size: 2.5rem;
+        font-family:'Pacifico-medium',sans-serif;
+        color: white;
+    }
+    .title-wrapper{
+        position: relative;
+    }
+    .title{
+        font-size: 4rem;
+        color: $main-black;
+        line-height: 10rem;
+        font-family: 'Montserrat-semibold',sans-serif;
+    }
+    .returnBtn{
+        cursor: pointer;
+        width: $icon-size;
+        height: $icon-size;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: $padding-container*1.5;
+    }

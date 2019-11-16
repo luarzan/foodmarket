@@ -1,0 +1,33 @@
+@import '../../../../../assets/Styles/measures.scss';
+@import '../../../../../assets/Styles/colors.scss';
+
+.CategoriesRecipe{
+    height: $recipe-card-height/2;
+    border-radius: $border-radius-boxes*3;
+    padding: $padding-container;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: $element-space;
+    color: $white;
+    flex-direction: column;
+    position: relative;
+    &-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(82, 31, 31, 0.1) 0%, rgba(0,0,0,0.1) 100%);
+        border-radius:$border-radius-boxes*3;
+    }
+    &-name{
+        font-size: 2.5rem;
+        font-family: 'Montserrat-bold',sans-serif;
+    }
+    &-type{
+        font-size: 1.5rem;
+    }
+}
