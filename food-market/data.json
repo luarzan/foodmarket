@@ -1,0 +1,403 @@
+[
+  {
+    "id": 1,
+    "favorite": false,
+    "popular": true,
+    "title": "Hotcakes",
+    "cover": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+    "type": "Desayuno",
+    "tag": "Panaderia",
+    "ingredients": [
+      "2 tazas de harina para hotcakes",
+      "2 piezas de huevo",
+      "1 1/2 tazas de leche",
+      "1/4 de taza de chocolate en polvo",
+      "1/2 barrita de mantequilla derretida"
+    ],
+    "instructions": [
+      {
+        "instruction": "Mezclar la harina, leche, huevos, mantequilla y el chocolate, hasta que no queden grumos."
+      },
+      {
+        "instruction": "En un sartén caliente engrasado con mantequilla, vertir un poco de mezcla tratando una forma redonda."
+      },
+      {
+        "instruction": "Cuando empiece a burbujear, voltear el hotcake para que se cocine por el otro lado."
+      },
+      {
+        "instruction":"Servir ya que esté bien cocido."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "favorite": false,
+    "popular": true,
+    "title": "Burrito",
+    "cover": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+    "type": "Comida",
+    "tag": "Fast food",
+    "ingredients": [
+    "1 cucharada de Knorr® Suiza Caldo de Pollo granulado",
+    "1 pieza de pechuga de pollo sin piel",
+    "2 cucharaditas de Margarina Primavera® Cocina Sin Sal",
+    "2 cucharadas de cebolla blanca finamente picada",
+    "1 diente de ajo pelado y picado",
+    "2 piezas de jitomate picado finamente",
+    "2 piezas de chile serrano picado finamente",
+    "1 pieza de limón su jugo",
+    "1/8 de cucharadita de pimienta negra molida",
+    "4 piezas de tortillas de harina",
+    "4 cucharadas de Hellmann's Light® Aderezo de Mayonesa"
+    ],
+    "instructions": [
+      {
+        "instruction": "Fundir la Primavera® Margarina sin sal a fuego bajo y sofreír las pechugas de pollo, sazonar con Knorr® Suiza Caldo de Pollo granulado."
+      },
+      {
+        "instruction": "Para el pico de gallo, mezclar la cebolla, el ajo, el jitomate, el chile, el jugo de limón y la pimienta."
+      },
+      {
+        "instruction": "Calentar las tortillas y untar a cada una con Mayonesa Hellmann's®, agregar el pollo cortado en tiras y terminar con pico de gallo. "
+      },
+      {
+        "instruction":"Envolver y servir."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "favorite": false,
+    "popular": false,
+    "title": "Hamburguesa",
+    "cover": "https://images.pexels.com/photos/327135/pexels-photo-327135.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "type": "Comida",
+    "tag": "Fast food",
+    "ingredients": [
+      "1/2 kilo de carne de ternera molida",
+      "1/2 taza de cilantro finamente picado",
+      "1/2 taza de cebolla blanca finamente picada",
+      "1/4 de taza de jitomate finamente picado",
+      "2 cucharadas de ajo finamente picado",
+      "1/4 de taza de mostaza",
+      "2 cucharadas de salsa inglesa",
+      "1 pieza de huevo",
+      "1/4 de taza de pan molido",
+      "1/2 taza de tocino frito y finamente picado",
+      "1 pizca de sal y pimienta",
+      "1 cucharada de aceite de oliva",
+      "1 cucharada de aceite vegetal",
+      "3 rebanadas de queso cheddar",
+      "3 rebanadas de queso manchego",
+      "3 piezas de pan para hamburguesa",
+      "al gusto de mostaza",
+      "al gusto de jitomate bola en rodajas",
+      "al gusto de cebolla morada en rodajas",
+      "al gusto de tocino frito en láminas",
+      "al gusto de lechuga",
+      "al gusto de pepinillo",
+      "al gusto de chile jalapeño",
+      "al gusto de catsup "
+    ],
+    "instructions": [
+      {
+        "instruction": "En un bowl mezcla la carne de ternera con el cilantro, la cebolla, el jitomate, el ajo, la mostaza, la salsa inglesa, el huevo, el pan molido, el tocino, la sal, la pimienta y el aceite de oliva. Forma las hamburguesas aproximadamente de 150 gramos."
+      },
+      {
+        "instruction": "Calienta una parrilla a fuego alto con el aceite y cocina las hamburguesas por los dos lados, cuando estén a ¾ de la cocción coloca una rebanada de queso cheddar y otra de manchego en cada hamburguesa y deja que se derritan con el calor. Retira."
+      },
+      {
+        "instruction": "Para el armado, unta en las bases de cada pan un poco de mostaza, coloca la carne, hojas de lechuga, jitomate, cebolla morada, tocino, pepinillos, chile jalapeño, salsa cátsup, cierra con las tapas de pan y disfruta."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "favorite": true,
+    "popular": true,
+    "title": "Pasta",
+    "cover": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "type": "Comida",
+    "tag": "Italiana",
+    "ingredients": [
+      "500 gramos de pasta spaghetti",
+      "1 taza de jitomate cherry cortados a la mitad",
+      "hojas de albahaca frescas",
+      "1 cebolla chica",
+      "2 ajos cortados en rodajas",
+      "peperoncinos al gusto",
+      "sal al gusto",
+      "pimientas al gusto",
+      "aceites de oliva",
+      "quesos parmesano rallado"
+    ],
+    "instructions": [
+      {
+        "instruction": "Picar la cebolla en juliana."
+      },
+      {
+        "instruction": "Cortar el ajo en rodajas."
+      },
+      {
+        "instruction": "Cortar los jitomates cherry por la mitad."
+      },
+      {
+        "instruction":"Colocar en una cacerola 2 tazas de agua."
+      },
+      {
+        "instruction":"Agregar la pasta, la cebolla, el ajo, los jitomates cherry y la albahaca."
+      },
+      {
+        "instruction":"Salpimentar y agregar el peperoncino."
+      },
+      {
+        "instruction":"Esperar 10-15 minutos hasta que la pasta se haya cocido y el agua casi evaporado."
+      },
+      {
+        "instruction":"Servir con un chorrito de aceite de oliva, queso parmesano, sal, pimienta y unas hojas de albahaca."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "favorite": false,
+    "popular": false,
+    "title": "Chuletas de cerdo",
+    "cover": "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "type": "Carne roja",
+    "tag": "Comida",
+    "ingredients": [
+      "4 chuletas de cerdo con hueso (cada una como de 250 gr. y de 2.5 cm de grosor)",
+      "2 cucharadas de aceite vegetal",
+      "3 cucharadas de mantequilla",
+      "1/2 echallot finamente",
+      "1 1/2 tazas de caldo de pollo",
+      "sal",
+      "pimientas"
+    ],
+    "instructions": [
+      {
+        "instruction": "Sazone las chuletas de cerdo con sal y pimienta. "
+      },
+      {
+        "instruction": "En un sartén lo suficientemente grande para que quepan las 4 chuletas, ponga el aceite sobre fuego medio-alto. "
+      },
+      {
+        "instruction": "Ponga las chuletas en el sartén y cocine por 2 minutos para que se doren por un lado y otros 2 minutos por el otro lado."
+      },
+      {
+        "instruction": "Reduzca el fuego a medio y tape el sartén por 3 minutos."
+      },
+      {
+        "instruction": "Destape el sartén y deles la vuelta a las chuletas y vuelva a tapar hasta que las chuletas esten firmes, como 3 minutos más."
+      }
+      ,
+      {
+        "instruction": "Prepare la salsa, quita la grasa del sartén y ponga una cucharada de mantequilla sobre fuego medio-alto. Agregue el echallot picado y cocine por 1 minuto hasta que se ponga suave. "
+      }
+      ,
+      {
+        "instruction":"Reduzca el fuego a medio y tape el sartén por 3 minutos."
+      }
+      ,
+      {
+        "instruction":"Reduzca el fuego a medio y tape el sartén por 3 minutos."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "favorite": false,
+    "popular": false,
+    "title": "Bowl Antioxidante de Frutas",
+    "cover": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "type": "Saludable",
+    "tag": "Desayuno",
+    "ingredients": [
+      "1/2 taza de frambuesa más para decorar",
+      "1/2 taza de fresa más para decorar cortadas en láminas",
+      "1 pieza de plátano",
+      "1/2 taza de sandía",
+      "1/4 de taza de mora azul mas para decorar",
+      "1 cucharada de avena",
+      "1/4 de taza de zarzamora para decorar",
+      "1/4 de taza de granola para decorar",
+      "1/4 de taza de ajonjolí para decorar",
+      "1/4 de taza de arándano deshidratado para decorar"
+    ],
+    "instructions": [
+      {
+        "instruction": "Para el bowl antioxidante congela las frambuesas, las fresas, el plátano, la sandía y las moras. Una vez congeladas, licúa las frutas junto con la avena hasta obtener una mezcla tersa."
+      },
+      {
+        "instruction": "Sirve en un bowl y decora con fresas, frambuesas, zarzamoras, moras, granola, ajonjolí y arándanos."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "favorite": true,
+    "popular": true,
+    "title": "Crema de Zanahoria",
+    "cover": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "type": "Sopas",
+    "tag": "Comida",
+    "ingredients": [
+      "5 piezas de zanahoria",
+      "40 gramos de harina",
+      "100 gramos de mantequilla",
+      "300 mililitros de leche",
+      "300 mililitros de caldo de pollo",
+      "30 gramos de cebolla",
+      "1 diente de ajo",
+      "sal al gusto",
+      "pimientas al gusto"
+    ],
+    "instructions": [
+      {
+        "instruction": "Cocer las zanahorias en agua y agregarles la cebolla y el diente de ajo "
+      },
+      {
+        "instruction": "Licuar las zanahorias con el caldo de pollo y reservar (Sin la cebolla ni el ajo)"
+      },
+      {
+        "instruction": "Realizar un Roux (Derretir la mantequilla y despues agregar la harina), agregar la leche y la zanahoria licuada y sasonar con sal y pimienta"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "favorite": true,
+    "popular": false,
+    "title": "Huevos Rancheros",
+    "cover": "https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "type": "Ligero",
+    "tag": "Desayuno",
+    "ingredients": [
+      "3 jitomates (para la salsa)",
+      "3 chiles serranos (para la salsa)",
+      "1/4 de cebolla (para la salsa)",
+      "1 diente de ajo (para la salsa)",
+      "1 cucharada de aceite (para la salsa)",
+      "1 cucharada de sal",
+      "1/2 cucharadita de pimienta (para la salsa)",
+      "4 cucharadas de aceite",
+      "8 tortillas de maíz",
+      "8 huevos",
+      "1/2 cucharadita de sal",
+      "1/4 de cucharadita de pimienta",
+      "1/2 cucharada de aceite",
+      "1 lata de frijol (440 g)"
+    ],
+    "instructions": [
+      {
+        "instruction": "En un comal a fuego medio, tatema los jitomates, los chiles, la cebolla y el ajo."
+      },
+      {
+        "instruction": "Licúa los ingredientes hasta que obtengas una mezcla homogénea."
+      },
+      {
+        "instruction": "Calienta el aceite en una ollita a fuego medio, y agrega la salsa. Deja que suelte el hervor y fríe por 5 minutos. Sazona y reserva."
+      },
+      {
+        "instruction": "En un sartén a fuego medio, calienta el aceite y fríe las tortillas de maíz 1 minuto. Escurre sobre papel absorbente y reserva."
+      },
+      {
+        "instruction": "En el mismo sartén, fríe los huevos al gusto y sazona."
+      },
+      {
+        "instruction": "Recalienta los frijoles en un sartén con aceite. Reserva."
+      },
+      {
+        "instruction": "Sirve dos tortillas en un plato extendido, encima coloca dos huevos y acompaña con salsa ranchera y frijoles."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "favorite": false ,
+    "popular": false,
+    "title": "Salmón al horno con vegetales",
+    "cover": "https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "type": "Pescados y mariscos",
+    "tag": "Cena",
+    "ingredients": [
+      "2 piezas de filete de salmón",
+      "2 piezas de papa grandes",
+      "2 piezas de jitomate",
+      "2 piezas de pimiento verde",
+      "1 pieza de cebolla",
+      "ajos",
+      "perejiles",
+      "sal y pimienta",
+      "vinagre",
+      "aceites de oliva"
+    ],
+    "instructions": [
+      {
+        "instruction": "Pelar las papas y cortarlas en finas rodajas, que después nos servirán como base del acompañamiento de nuestro salmón al horno."
+      },
+      {
+        "instruction": "Picar la cebolla en pequeños trozos. Abrimos los pimientos, los vaciamos y una vez limpios los cortamos en rodajas."
+      },
+      {
+        "instruction": "Posteriormente, preparamos una sartén con aceite de oliva y nos disponemos a freír, uno por uno, todos los ingredientes que después añadiremos al plato. Es importante controlar las papas y retirarlas justo antes de que se doren, ya que acabarán de hacerse junto al salmón en el horno."
+      },
+      {
+        "instruction": "Picar los ajos y el perejil y mezclar con un poco de aceite y vinagre, para preparar una ligera salsa que acompañará después a nuestro pescado. Cortamos los dos jitomates en trocitos pequeños y, una vez preparados todos los ingredientes, seleccionamos una de nuestras fuentes y la untamos con aceite de oliva. Después sólo debemos colocar los alimentos por capas, siguiendo este orden: primero las papas, en segundo lugar la cebolla picada y las rodajas de pimiento y en tercer lugar los trozos de jitomate. Por último, salpimentamos los filetes de salmón y los colocamos encima del resto de los ingredientes."
+      },
+      {
+        "instruction": "Calentamos el horno a 220 grados de temperatura e introducimos la fuente en el interior durante 5 o 6 minutos. Después, retiramos la fuente y rociamos el pescado con la salsa de ajo y perejil. Por último, volvemos a introducir nuestro salmón al horno y, una vez que comprobamos que está bien cocinado, lo retiramos y lo servimos."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "favorite": true,
+    "popular":true,
+    "title": "Brochetas Mar y Tierra",
+    "cover": "https://images.pexels.com/photos/2689419/pexels-photo-2689419.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "type": "Fácil",
+    "tag": "Cena",
+    "ingredients": [
+      "aderezo de tamarindo Clemente Jacques ®",
+      "12 camarones grandes",
+      "1/2 kilo de arrachera",
+      "1 pimiento verde",
+      "1 pimiento amarillo",
+      "1 pimiento rojo",
+      "cebollas moradas",
+      "sal gruesa",
+      "pimientas molidas",
+      "jugo sazonador",
+      "salsas inglesa",
+      "1 diente de ajo molido",
+      "1/2 lata de cerveza obscura",
+      "1 limón",
+      "palitos de madera para brochetas"
+    ],
+    "instructions": [
+      {
+        "instruction": "Corta la arrachera en cubos medianos. Marínala en un tazón grande bañando en ½ lata de cerveza obscura, el jugo de 1 limón, jugo sazonador, salsa inglesa y ajo. Refrigera por 1 hr."
+      },
+      {
+        "instruction": "Abre los camarones en mariposa por debajo y por arriba para retirar la parte negra. Enjuágalos perfectamente bajo el chorro de agua."
+      },
+      {
+        "instruction": "Una vez que laves los pimientos córtalos en cuadros grandes, deben ser gruesos para que se puedan insertar bien en la brocheta. Haz lo mismo con la cebolla morada."
+      },
+      {
+        "instruction": "Inserta un cuadro de carne, cebolla morada, pimiento verde, un camarón, y pimiento amarillo carne y pimiento rojo. Y así sucesivamente, la cantidad dependerá de que tan grandes quieras tus brochetas."
+      },
+      {
+        "instruction": "Colócalas a la parrilla con un poco de aceite, esta debe estar muy caliente. Sazona con sal de mar y pimienta recién molida."
+      },
+      {
+        "instruction": "Voltea de ambos lados y retira del fuego cuando el término de la carne esté como más te guste."
+      },
+      {
+        "instruction": "Una vez listas sirve con Aderezo de Tamarindo Clemente Jacques ® para que la gente las pueda sumergir."
+      }
+    ]
+  }
+]
