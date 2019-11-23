@@ -1,0 +1,12 @@
+@import '../../../../assets/Styles/colors.scss';
+@import '../../../../assets/Styles/measures.scss';
+
+.Pricing{
+    position: relative;
+    padding: 0 $padding-container;
+    margin: $title-bar-height*2 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}

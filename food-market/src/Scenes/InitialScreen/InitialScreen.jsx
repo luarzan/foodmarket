@@ -43,21 +43,21 @@ const changeToRegister = ()=>{
                 <input placeholder="Nombre" className="inputs margin-inputs full-width" type="text"/>
                 :''}
                 <input placeholder="Correo" className="inputs margin-inputs full-width" type="text"/>
-                <input placeholder="Contraseña" className="inputs full-width" type="text"/>
+                <input placeholder="Contraseña"  className="inputs full-width" type="password"/>
             </div>
             <div className="white-back-figure">
-                {/* <Button
+                 <Button
                 className="full-width"
                 whiteButton
                 facebook
-                >INGRESA CON FACEBOOK</Button> */}
-                {/* <Button
+                >INGRESA CON FACEBOOK</Button> 
+                 <Button
                 className="full-width"
                 whiteButton
                 google
-                >INGRESA CON GOOGLE</Button> */}
-                <BtnFacebookLogin></BtnFacebookLogin>
-                <BtnGoogleLogin></BtnGoogleLogin>
+                >INGRESA CON GOOGLE</Button>
+                {/* <BtnFacebookLogin></BtnFacebookLogin>
+                <BtnGoogleLogin></BtnGoogleLogin> */}
                 <Link to={'/u/recipe'}>
                     <Button
                     className="full-width"

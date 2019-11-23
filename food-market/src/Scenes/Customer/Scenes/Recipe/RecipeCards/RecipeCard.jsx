@@ -1,7 +1,7 @@
 import React from 'react';
 import './RecipeCard.scss';
 
-const RecipeCard = ({recipe,cardType,recipePopularCard,timeOfTheDayCard,children})=>{
+const RecipeCard = ({recipe,clickFood,click,cardType,recipePopularCard,timeOfTheDayCard,children})=>{
     
    
         const style = {backgroundImage:`url(${recipe?recipe.image:''})`}
@@ -12,13 +12,13 @@ const RecipeCard = ({recipe,cardType,recipePopularCard,timeOfTheDayCard,children
     return(
         <div className={cardType} style={style}>
             {recipePopularCard &&
-            <div className="RecipeCard-text full-width">
+            <div onClick={clickFood} className="RecipeCard-text full-width">
                 <p className="RecipeCard-name">{recipe.name}</p>
                 <p className="RecipeCard-type">{recipe.type}</p>
             </div>
             }
             {timeOfTheDayCard &&
-                <p className="TimeOfTheDayCard-text">{children}</p>
+                <p onClick={click} className="TimeOfTheDayCard-text">{children}</p>
             }
         </div>
     )

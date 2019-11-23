@@ -28,7 +28,9 @@ const BottomBar = ()=>{
                 <HeartIcon/>
             </div>
             <div className="BottomBar-item">
-                <ShoppingCarIcon/>
+                <Link to={'/u/shopping'}>
+                     <ShoppingCarIcon/>
+                </Link>
             </div>
         </div>
     )

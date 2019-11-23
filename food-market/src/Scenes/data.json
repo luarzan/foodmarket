@@ -8,11 +8,11 @@
     "type": "Desayuno",
     "tag": "Panaderia",
     "ingredients": [
-      "2 tazas de harina para hotcakes",
-      "2 piezas de huevo",
-      "1 1/2 tazas de leche",
-      "1/4 de taza de chocolate en polvo",
-      "1/2 barrita de mantequilla derretida"
+      {"ingredient":"2 tazas de harina para hotcakes"},
+      {"ingredient":"2 piezas de huevo"},
+      {"ingredient":"1 1/2 tazas de leche"},
+      {"ingredient":"1/4 de taza de chocolate en polvo"},
+      {"ingredient": "1/2 barrita de mantequilla derretida"}
     ],
     "instructions": [
       {
@@ -164,8 +164,8 @@
     "popular": false,
     "title": "Chuletas de cerdo",
     "cover": "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "type": "Carne roja",
-    "tag": "Comida",
+    "type": "Comida",
+    "tag": "Carne roja",
     "ingredients": [
       "4 chuletas de cerdo con hueso (cada una como de 250 gr. y de 2.5 cm de grosor)",
       "2 cucharadas de aceite vegetal",
@@ -211,8 +211,8 @@
     "popular": false,
     "title": "Bowl Antioxidante de Frutas",
     "cover": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-    "type": "Saludable",
-    "tag": "Desayuno",
+    "type": "Desayuno",
+    "tag": "Saludable",
     "ingredients": [
       "1/2 taza de frambuesa más para decorar",
       "1/2 taza de fresa más para decorar cortadas en láminas",
@@ -240,8 +240,8 @@
     "popular": true,
     "title": "Crema de Zanahoria",
     "cover": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-    "type": "Sopas",
-    "tag": "Comida",
+    "type": "Comida",
+    "tag": "Sopas",
     "ingredients": [
       "5 piezas de zanahoria",
       "40 gramos de harina",
@@ -271,8 +271,8 @@
     "popular": false,
     "title": "Huevos Rancheros",
     "cover": "https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-    "type": "Ligero",
-    "tag": "Desayuno",
+    "type": "Desayuno",
+    "tag": "Ligero",
     "ingredients": [
       "3 jitomates (para la salsa)",
       "3 chiles serranos (para la salsa)",
@@ -319,8 +319,8 @@
     "popular": false,
     "title": "Salmón al horno con vegetales",
     "cover": "https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-    "type": "Pescados y mariscos",
-    "tag": "Cena",
+    "type": "Cena",
+    "tag": "Pescados y mariscos",
     "ingredients": [
       "2 piezas de filete de salmón",
       "2 piezas de papa grandes",
@@ -357,8 +357,8 @@
     "popular":true,
     "title": "Brochetas Mar y Tierra",
     "cover": "https://images.pexels.com/photos/2689419/pexels-photo-2689419.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-    "type": "Fácil",
-    "tag": "Cena",
+    "type": "Cena",
+    "tag": "Fácil",
     "ingredients": [
       "aderezo de tamarindo Clemente Jacques ®",
       "12 camarones grandes",

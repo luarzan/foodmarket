@@ -1,0 +1,75 @@
+
+@import '../../../../assets/Styles/measures.scss';
+@import '../../../../assets/Styles/colors.scss';
+
+.BuyIt{
+    position: relative;
+    padding: 0 $padding-container;
+    margin: $title-bar-height 0;
+    &-proccess{
+        width: 100%;
+    }
+    &-payment{
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-img{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        width: 200px;
+        height: 190px;
+        margin-bottom: 20px;
+    }
+    &-amountWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & p{
+            font-size: 18px;
+            margin-right: 20px;
+        }
+    }
+    &-amountBtn{
+        border:1px solid $main-orange;
+        background-color: $main-orange;
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        color:white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat';
+        margin-right: 20px;
+        cursor: pointer;
+        & p{
+            font-size: 40px;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+        }
+    }
+    &-titleWrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &-title{
+        color: $main-black;
+        font-size: 30px;
+    }
+    &-subTitle{
+        color: $main-black;
+        font-size: 18px;
+    }
+}

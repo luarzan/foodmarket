@@ -2,6 +2,7 @@
 @import '../../../../../assets/Styles/measures.scss';
 
 .RecipeCard{
+    cursor: pointer;
     max-width: $recipe-card-width;
     height: $recipe-card-height;
     border-radius: $border-radius-boxes*3;

@@ -1,0 +1,45 @@
+@import '../../../../../assets/Styles/colors.scss';
+@import '../../../../../assets/Styles/measures.scss';
+
+.PricingCard{
+border-radius: $border-radius-boxes;
+display: flex;
+justify-content: center;
+align-items: center;
+&:not(:last-child){
+    margin-bottom: $element-space;
+}
+&.muted{
+    width: 80%;
+    height: 18rem;
+    background-color: $muted-grey;
+}
+&.main{
+    width: 100%;
+    height: 20rem;
+    background-color:$main-orange;
+}
+    &-plan{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-title{
+            font-family: 'Montserrat-semibold',sans-serif;
+            font-size: 3rem;
+            color: $white;
+            margin-bottom: $element-space;
+        }
+        &-price{
+            font-family: 'Montserrat-bold',sans-serif;
+            font-size: 8rem;
+            color: $white;
+        }
+    }
+    &-priceWrapper{
+        display: flex;
+        justify-content: center;
+    }
+}

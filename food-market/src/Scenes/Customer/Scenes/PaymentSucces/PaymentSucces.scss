@@ -1,0 +1,26 @@
+@import '../../../../assets/Styles/measures.scss';
+@import '../../../../assets/Styles/colors.scss';
+
+.PaymentSucces{
+    position: relative;
+    padding: 0 $padding-container;
+    margin: $title-bar-height 0;
+    height: 600px;
+    &-succes{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        & img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    &-title{
+        font-size: 30px;
+        color: $main-black;
+        margin-bottom: 40px;
+    }
+}

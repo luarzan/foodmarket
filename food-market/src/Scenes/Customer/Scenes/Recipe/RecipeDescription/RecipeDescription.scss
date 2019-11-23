@@ -1,0 +1,58 @@
+@import '../../../../../assets/Styles/measures.scss';
+@import '../../../../../assets/Styles/colors.scss';
+
+.RecipeDescription{
+    position: absolute;
+    top: 900px;
+    left: 0;
+    right: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+    transition: top .5s;
+    background-color: white;
+    height: 700px;
+    &.open{
+        transition: top .5s;
+        top: 10px;
+    }
+    &-titleWrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &-title{
+        font-size: 30px;
+        color: $main-black;
+    }
+    &-tag{
+        font-size: 18px;
+        color: $main-black;
+        margin-bottom: 20px;
+    }
+    &-ingredients{
+        width: 100%;
+        margin-bottom: 20px;
+        &-list{
+            width: 100%;
+            &-item{
+                list-style: none;
+                color: $main-black;
+                font-size: 16px;
+                &:not(:last-child){
+                    margin-bottom:10px;
+                }
+            }
+        }
+    }
+    &-instructions{
+        width: 100%;
+        margin-bottom: 20px;
+        &-text{
+            color: $main-black;
+            font-size: 20px;
+            text-align: left;
+        }
+    }
+}
